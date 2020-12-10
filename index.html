@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Nama</title>
+    <script src="js.js">
+        alert("Selamat Datang")
+    </script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<!-- <script>
+    alert("Selamat Datang")
+</script> -->
+
+<body>
+    <div style="padding: 10px;">
+        <div style="float: left; width: 50%; height: 200px; border-right: solid 1px;">
+            <form>
+                <pre>
+Nama Lengkap    : <input id="nama" type="text">
+
+Pekerjaan       : <input id="kerja" type="text">
+
+Contact         : <input id="kontak" type="text">
+                </pre>
+                <br>
+                <div style="margin: 0 auto; width: max-content; height: max-content;">
+                    <input onclick="tampilkan()" type="button" value="Preview">
+                    <input type="reset" value="Ulangi">
+                </div>
+            </form>
+        </div>
+        <div style="float: right; width: 49.9% ; height: min-content;">
+            <div style="width: 70%; height: 200px; box-shadow: 1px 1px 1px 2px gray; margin: 0 auto; padding: 5px;">
+                <pre>
+Nama Lengkap    : <p id="tnama" style="height: 10px;"></p>
+Pekerjaan       : <p id="tkerja" style="height: 10px;"></p>
+Hubungi Saya di : <p id="tkontak" style="height: 10px;"></p>
+                </pre>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="js.js"></script> -->
+
+</body>
+
+</html>
